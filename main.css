@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3E5460;
+    font-family: Asap, sans-serif;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+    color: #3E5460;
+}
+
+.option img {
+    width: 80px;
+    height: 80px;
+}
+
+.board {
+    border: 3px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    margin: 20px auto;
+    width: 300px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.badge {
+    background: #E23E18;
+    color: #fff;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+#userlabel {
+    position: absolute;
+    top: 20px;
+    left: -25px;
+}
+
+#complabel {
+    position: absolute;
+    top: 20px;
+    right: -25px;
+}
+
+#result > p {
+    text-align: center;
+    font-family: inherit;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.options {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.option {
+    display: inline-block;
+    margin: 0 20px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.option > img:hover {
+    cursor: pointer;
+    box-shadow: 3px 4px 3px gray;
+}
+
+#message {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
